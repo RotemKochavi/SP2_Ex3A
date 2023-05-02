@@ -15,7 +15,7 @@ TEST_CASE("Test 1: Throws exception when denominator = 0")
 }
 
 
-TEST_CASE("Test 3: Return 0 when the numerator = 0")
+TEST_CASE("Test 2: Return 0 when the numerator = 0")
 {
     Fraction f1(0, 8765); // (0/8765) = 0
     Fraction f2(0, -8765); // (0/-8765) = 0
